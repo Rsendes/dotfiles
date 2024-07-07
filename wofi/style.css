@@ -1,0 +1,31 @@
+* {
+        border-radius: 15px;
+        border: none;
+}
+
+window{
+        font-size: 28px;
+        font-family: "Fira Mono";
+        background-color: rgba(25, 25, 25, 0.8);
+        color: white;
+}
+
+#entry {
+        padding: 0.3em;
+}
+
+#entry:selected {
+        background-color: rgba(0, 0, 0, 0.8);
+}
+
+#input{
+        background-color: rgba(25,25,25,0.8);
+        color: white;
+        padding: 0.3em;
+        border-radius: 4px;
+}
+
+image {
+        margin-left: .25em;
+        margin-right: .4em;
+}

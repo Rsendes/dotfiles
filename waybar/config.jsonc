@@ -1,0 +1,40 @@
+{
+	"height": 30,
+	"spacing": 8,
+	"layer": "top",
+
+	"include": ["~/.config/waybar/modules.json"],
+
+	"modules-left": [
+		"tray",
+		"wlr/taskbar",
+		"hyprland/workspaces"
+	],
+
+	"modules-center": [
+		"clock"
+	],
+
+	"modules-right": [
+		"group/hardware",
+		"pulseaudio",
+		"bluetooth",
+		"network",
+		"battery",
+		"custom/power"
+	],
+
+	"group/hardware": {
+		"orientation": "horizontal",
+		"modules": [
+			"cpu",
+                	"memory",
+                	"temperature"
+        	]
+	}
+	
+
+
+
+
+}
