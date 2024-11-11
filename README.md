@@ -1,2 +1,2 @@
 # dotfiles
-Hyprland on Arch config
+Dotfiles for my linux configs
