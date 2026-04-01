@@ -1,0 +1,49 @@
+* {
+    font-family: Fira Sans;
+    background-color: transparent;
+    font-size: 14px;
+}
+
+window {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+button {
+    color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(0, 0, 0, 0.3);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 64px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    margin: 20px;
+    min-width: 120px;
+    min-height: 120px;
+    font-size: 14px;
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    background-color: rgba(255, 179, 138, 0.2);
+    border-color: rgba(255, 179, 138, 0.5);
+    color: #ffffff;
+}
+
+#lock {
+    background-image: image(url("/home/filipe/.config/wlogout/lock.png"));
+}
+#logout {
+    background-image: image(url("/home/filipe/.config/wlogout/logout.png"));
+}
+#suspend {
+    background-image: image(url("/home/filipe/.config/wlogout/suspend.png"));
+}
+#reboot {
+    background-image: image(url("/home/filipe/.config/wlogout/reboot.png"));
+}
+#shutdown {
+    background-image: image(url("/home/filipe/.config/wlogout/shutdown.png"));
+}
+#hibernate {
+    background-image: image(url("/home/filipe/.config/wlogout/hibernate.png"));
+}

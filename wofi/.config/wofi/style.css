@@ -1,0 +1,52 @@
+* {
+    border: none;
+    font-family: Fira Sans, FontAwesome;
+    font-size: 15px;
+}
+
+window {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+#outer-box {
+    padding: 12px;
+}
+
+#input {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    padding: 8px 12px;
+    margin-bottom: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+#input:focus {
+    border: 1px solid rgba(51, 204, 255, 0.5);
+}
+
+#scroll {
+    margin: 0;
+}
+
+#entry {
+    padding: 8px 12px;
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#entry:selected {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+}
+
+#text {
+    margin-left: 8px;
+}
+
+image {
+    margin-left: 4px;
+    margin-right: 4px;
+}

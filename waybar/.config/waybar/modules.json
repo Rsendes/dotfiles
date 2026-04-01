@@ -1,0 +1,98 @@
+{
+	"tray": {
+    		"spacing": 6,
+    		"icon-size": 16
+	},
+
+	"clock": {
+                "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+                "format-alt": "{:%Y-%m-%d}"
+        },
+
+        "cpu": {
+                "format": "{usage}% ",
+                "tooltip": false,
+		"on-click": "alacritty -e btop"
+        },
+
+        "memory": {
+                "format": "{}% "
+        },
+
+        "temperature": {
+                "critical-threshold": 85,
+                "format": "{temperatureC}°C {icon}",
+                "format-icons": ["", "", ""],
+		"hwmon-path": "/sys/class/hwmon/hwmon5/temp1_input"
+        },
+
+        "battery": {
+                "states": {
+                "warning": 30,
+                "critical": 15
+                },
+                "format": "{capacity}% {icon}",
+                "format-full": "{icon}",
+                "format-charging": "{capacity}% ",
+                "format-plugged": "{capacity}% ",
+                "format-alt": "{time} {icon}",
+                "format-icons": ["", "", "", "", ""],
+		"format-alt": "{time} remaining {icon}"
+        },
+
+	 "network": {
+                "format-wifi": "",
+                "format-ethernet": "{ipaddr}/{cidr} ",
+                "tooltip-format": "{ifname} via {gwaddr} ",
+                "format-linked": "{ifname} (No IP) ",
+                "format-disconnected": "!",
+                "format-ethernet": "{ipaddr}/{cidr} ",
+                "format-alt": "{essid} ({signalStrength}%) ",
+                "on-click-right": "nm-applet"
+        },
+
+        "bluetooth": {
+                "format-disabled": "!",
+		"format-connected": " {device_alias}",
+                "format": "",
+                "format-on": "",
+                "format-off": "!",
+                "on-click": "systemctl start bluetooth ; blueman-manager",
+                "on-click-right": "systemctl stop bluetooth"
+        },
+
+        "pulseaudio": {
+                "format": "{volume}% {icon}",
+                "format-bluetooth": "{volume}% {icon} {format_source}",
+                "format-bluetooth-muted": " {icon} {format_source}",
+                "format-muted": " {format_source}",
+                "format-icons": {
+                        "headphone": "",
+                        "hands-free": "",
+                        "headset": "",
+                        "phone": "",
+                        "portable": "",
+                        "car": "",
+                        "default": ["", "", ""]
+                },
+                "on-click": "pavucontrol"
+        },
+
+	"hyprland/workspaces": {
+    		"disable-scroll": true,
+    		"all-outputs": true,
+		"warp-on-scroll": false,
+    		"format": "{icon}",
+    			"format-icons": {
+        		"active": "●",
+        		"default": "○",
+        		"urgent": "●"
+    		}
+	},
+
+        "custom/power": {
+                "format": "",
+                "on-click": "wlogout -p layer-shell"
+        }
+
+}

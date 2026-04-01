@@ -1,0 +1,53 @@
+[font]
+size = 14.0
+
+[font.normal]
+family = "Fira Mono"
+style = "Regular"
+
+[font.bold]
+family = "Fira Mono"
+style = "Bold"
+
+[font.italic]
+family = "Fira Mono"
+style = "Italic"
+
+[window]
+opacity = 0.85
+blur = true
+padding = { x = 12, y = 12 }
+decorations = "None"
+
+[colors.primary]
+background = "#0d0d12"
+foreground = "#e0d8e8"
+
+[colors.normal]
+black   = "#1a1a2e"
+red     = "#f76c6c"
+green   = "#7ec8a4"
+yellow  = "#ffb347"
+blue    = "#8ab4f8"
+magenta = "#c589e8"
+cyan    = "#79c8d8"
+white   = "#c8c0d8"
+
+[colors.bright]
+black   = "#2e2e45"
+red     = "#ff8585"
+green   = "#95e0bb"
+yellow  = "#ffc870"
+blue    = "#a8c8ff"
+magenta = "#d8a0f8"
+cyan    = "#95dce8"
+white   = "#e8e0f0"
+
+[colors.cursor]
+cursor = "#ffb38a"
+text   = "#0d0d12"
+
+[[keyboard.bindings]]
+key = "Return"
+mods = "Shift"
+chars = "\u001B\r"
