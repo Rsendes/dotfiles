@@ -8,7 +8,7 @@ My personal dotfiles for CachyOS + Hyprland setup.
 
 ## Dependencies
 ```bash
-sudo pacman -S stow git hyprland hypridle hyprlock hyprsunset waybar mako wofi wlogout swayosd alacritty fish neovim grimblast wl-clipboard cliphist brightnessctl playerctl ttf-fira-sans ttf-fira-mono ttf-fira-code otf-font-awesome papirus-icon-theme tlp ufw gnome-keyring qt6-virtualkeyboard nwg-look qt6ct gnome-themes-extra adw-gtk-theme btop fzf fd
+sudo pacman -S stow git hyprland hypridle hyprlock hyprsunset waybar mako wofi wlogout swayosd alacritty fish neovim grimblast wl-clipboard cliphist brightnessctl playerctl ttf-fira-sans ttf-fira-mono ttf-fira-code otf-font-awesome papirus-icon-theme tlp ufw gnome-keyring qt6-virtualkeyboard nwg-look qt6ct gnome-themes-extra adw-gtk-theme btop fzf fd pcmanfm
 ```
 
 ## Install
