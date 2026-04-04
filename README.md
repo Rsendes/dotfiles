@@ -7,12 +7,9 @@ My personal dotfiles for CachyOS + Hyprland setup.
 - IdeaPad Gaming 3 (personal) — Ryzen 5 5600H, RTX 3050
 
 ## Dependencies
-- hyprland, hypridle, hyprlock, hyprsunset
-- waybar, mako, wofi, wlogout, swayosd
-- alacritty, fish, nvim
-- stow, grimblast, cliphist, wl-clipboard
-- fira-sans, fira-mono fonts
-- qt6-virtualkeyboard (for SDDM theme)
+```bash
+sudo pacman -S stow git hyprland hypridle hyprlock hyprsunset waybar mako wofi wlogout swayosd alacritty fish neovim grimblast wl-clipboard cliphist brightnessctl playerctl ttf-fira-sans ttf-fira-mono ttf-fira-code otf-font-awesome papirus-icon-theme tlp ufw gnome-keyring qt6-virtualkeyboard nwg-look qt6ct gnome-themes-extra adw-gtk-theme btop fzf fd
+```
 
 ## Install
 
